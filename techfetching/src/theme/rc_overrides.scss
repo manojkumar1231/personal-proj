@@ -1,0 +1,19 @@
+.rc-checkbox {
+  &.rc-checkbox-disabled {
+    &:hover .rc-checkbox-inner, .rc-checkbox-input:focus + .rc-checkbox-inner {
+      border-color: #3498db !important;
+    }
+  }
+  &:hover .rc-checkbox-inner, .rc-checkbox-input:focus + .rc-checkbox-inner {
+    border-color: #3498db  !important;
+  }
+}
+
+.rc-checkbox-checked .rc-checkbox-inner {
+  border-color: #3498db  !important;
+  background-color: #3498db  !important;
+}
+
+.rc-checkbox {
+  padding: 0 10px 0 0;
+}

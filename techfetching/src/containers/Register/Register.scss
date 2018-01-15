@@ -1,0 +1,26 @@
+.loginContainer {
+  height: 630px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.05);
+  border: solid 1px rgba(204, 204, 204, 0.5);
+  .displayJob {
+    float: right;
+    font-family: Lato;
+    font-weight: 300;
+    margin-top: 50px;
+    .displayJobHeader {
+      color: #000000;
+      font-size: 24px;
+    }
+    .displayJobTitle {
+      color: #434343;
+      font-size: 15px;
+    }
+    .displayJobContent {
+      color: #434343;
+      font-size: 15px;
+      opacity: 0.8;
+    }
+  }
+}
